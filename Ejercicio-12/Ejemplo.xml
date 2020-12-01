@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE rutascoche SYSTEM "rutascoche.dtd">
+<rutascoche>
+    <ruta nombre="Ruta de la Plata">
+        <tipo>Paisajística y monumentos</tipo>
+        <dificultad>Media</dificultad>
+        <fechainicio>22/10/2020</fechainicio>
+        <horainicio>9:00</horainicio>
+        <duracion>3 días</duracion>
+        <agencia>Sin agencia</agencia>
+        <descripcion>Debe su nombre a la Vía de la Plata, que los romanos construyeron entre Mérida y Astorga, y que une ahora Sevilla con Gijón, siendo una de las mejores maneras de recorrer el oeste del país, de norte a sur, pudiendo admirarse así toda su riqueza turística.</descripcion>
+        <personasaptas>Cualquier persona</personasaptas>
+        <lugarinicio>Gijón</lugarinicio>
+        <direccioninicio>Avenida Sanz Crespo</direccioninicio>
+        <coordenadas>
+            <longitud>-5.66152</longitud>
+            <latitud>43.5453</latitud>
+            <altitud>3.05m</altitud>
+        </coordenadas>
+        <referencias>
+            <referencia src = "https://es.wikipedia.org/wiki/Autovía_Ruta_de_la_Plata"/>
+            <referencia src = "https://www.lavanguardia.com/ocio/viajes/20190305/46816018695/ruta-de-la-plata-parar-comer-dormir.html"/>
+            <referencia src = "https://rutadelaplata.com"/>
+        </referencias>
+        <recomendacion>9</recomendacion>
+        <hitos>
+            <hito>
+                <nombrehito>Zamora</nombrehito>
+                <descripcionhito>Zamora es un municipio y ciudad española ubicada entre el centro y el noroeste de la península ibérica, capital de la provincia homónima,​ en la comunidad autónoma de Castilla y León, cerca de la frontera con Portugal y a una altitud de 652 metros sobre el nivel del mar.</descripcionhito>
+                <coordenadashito>
+                    <longitudhito>-5.74628</longitudhito>
+                    <latitudhito>41.5033</latitudhito>
+                    <altitudhito>652m</altitudhito>
+                </coordenadashito>
+                <distanciahitoant>274km</distanciahitoant>
+                <tiempohitoant>3h</tiempohitoant>
+                <galeriaimg>
+                    <imagenhito nombre="Zamora" src="https://upload.wikimedia.org/wikipedia/commons/8/87/Catedral_de_Zamora_Es_recorte_1.jpg"/>
+                    <imagenhito nombre="Catedral de Zamora" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Catedral_Zamora03.JPG/266px-Catedral_Zamora03.JPG"/>
+                    <imagenhito nombre="Calle de Zamora" src="https://www.spain.info/export/sites/segtur/.content/imagenes/cabeceras-grandes/castilla-leon/zamora-calle-balboraz-s519989767.jpg_1014274486.jpg"/>
+                </galeriaimg>
+                <galeriavid>
+                    <videohito nombre="Video informativo de Zamora" src="https://www.youtube.com/watch?v=7VRN9HOIowg"/>
+                </galeriavid>
+            </hito>
+            <hito>
+                <nombrehito>Salamanca</nombrehito>
+                <descripcionhito>Salamanca es un municipio y ciudad española, capital de la provincia homónima, situada en la comunidad autónoma de Castilla y León. Está ubicada en la comarca del Campo de Salamanca, en plena meseta Norte, en el cuadrante noroeste de la península ibérica. Tiene una población de 144 436 habitantes empadronados (INE, 2017). Su área funcional estable alcanza los 203 999 ciudadanos.</descripcionhito>
+                <coordenadashito>
+                    <longitudhito>-5.66388</longitudhito>
+                    <latitudhito>40.96882</latitudhito>
+                    <altitudhito>802m</altitudhito>
+                </coordenadashito>
+                <distanciahitoant>251.8km</distanciahitoant>
+                <tiempohitoant>2h 27min</tiempohitoant>
+                <galeriaimg>
+                    <imagenhito nombre="Monumento Salamanca" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/68436-Salamanca_%2849093713952%29.jpg/266px-68436-Salamanca_%2849093713952%29.jpg"/>
+                    <imagenhito nombre="Puente Salamanca" src="https://www.vinccihoteles.com/sites/default/files/styles/flexslider_full/public/salamanca.jpg?itok=rHSlA1RN"/>
+                    <imagenhito nombre="Universidad de Salamanca" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Fachada_de_la_Universidad_de_Salamanca.jpg/280px-Fachada_de_la_Universidad_de_Salamanca.jpg"/>
+                </galeriaimg>
+                
+            </hito>
+            <hito>
+                <nombrehito>Sevilla</nombrehito>
+                <descripcionhito>Sevilla es un municipio y una ciudad de España, capital de la provincia homónima y de Andalucía. Cuenta con 688 811 habitantes en 2018, por lo que es la ciudad más poblada de Andalucía, la cuarta de España después de Madrid, Barcelona y Valencia y la 32.ª de la Unión Europea. El municipio tiene una superficie de 140,8 km².El área metropolitana de Sevilla está compuesta por 46 municipios, incluye a una población de 1 535 379 habitantes.</descripcionhito>
+                <coordenadashito>
+                    <longitudhito>-5.97317</longitudhito>
+                    <latitudhito>37.38283</latitudhito>
+                    <altitudhito>7m</altitudhito>
+                </coordenadashito>
+                <distanciahitoant>462.1km</distanciahitoant>
+                <tiempohitoant>4h 17min</tiempohitoant>
+                <galeriaimg>
+                    <imagenhito nombre="La Giralda" src="https://www.mercerhoteles.com/photo/blog/45/1/sevilla-a-los-pies-de-la-giralda.jpg?w=1440"/>
+                    <imagenhito nombre="Triana" src="https://mk0palaciovillagcu31.kinstacdn.com/wp-content/uploads/Triana.jpg"/>
+                    <imagenhito nombre="Universidad de Sevilla" src="https://www.lavozdelsur.es/uploads/s1/77/56/9/captura-de-pantalla-2018-07-11-a-las-22-43-56.png"/>
+                </galeriaimg>
+                <galeriavid>
+                    <videohito nombre="Video informativo de Sevilla" src="https://www.youtube.com/watch?v=XeAsZzzU4lA"/>
+                </galeriavid>
+            </hito>
+        </hitos>
+    </ruta>
+
+
+</rutascoche>

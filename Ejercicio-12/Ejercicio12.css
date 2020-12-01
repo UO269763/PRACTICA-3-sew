@@ -1,0 +1,24 @@
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+[type=button] {
+    background-color: gray;
+    text-align: center;
+}
+
+section {
+    text-align: center;
+}
+
+body {
+    background-color: lightpink;
+}
+
+footer {
+    margin: 20px;
+}

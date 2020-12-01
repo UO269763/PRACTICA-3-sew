@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 13-2</title>
+    <meta name="author" content="Esther González">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="MapaGeoJSON.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtF0HSYfDaXjyc_GcuBioFAfXEa3Gpaj4&v=3.exp"></script>
+    <script src="MapaGeoJSON.js"></script>
+</head>
+
+<body>
+    <h1>Servicio geolocalización GEOJSON </h1>
+    <input id="subirArchivos" type="file" name="Archivos" onchange="mapa.procesarGeo(this.files)">
+    <section id="mapa">
+        <h2>Mapa dinámico</h2>
+        <p id="map"></p>
+    </section>
+</body>
+
+</html>

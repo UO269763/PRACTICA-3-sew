@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 11-6</title>
+    <meta name="author" content="Esther González">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Ejercicio11.css" />
+    <script src="Ejercicio11.js"></script>
+</head>
+
+<body>
+    <h1>Servicio de geolocalización</h1>
+   
+    <section id="mapa">
+        <h2>pulse para ver</h2>
+        <input type="button" value="Obtener mapa estático" onClick="miMapa.getMapaEstaticoGoogle('ubicacion');" />
+    </section>
+    <section id="ubicacion">
+        <h2>Posición</h2>
+        <input type="button" value="Visualizar mi posición" onClick="miMapa.verTodo('ubicacion');" />
+    </section>
+</body>
+
+</html>

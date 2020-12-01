@@ -1,0 +1,14 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightpink;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: left;
+    color: black;
+}
+section {
+    text-align: center;
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Placemark>
+<name>Ruta de la Plata</name>
+<LineString>
+<extrude>1</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+-5.66152,43.5453,3.05
+-5.74628,41.5033,652
+-5.66388,40.96882,802
+-5.97317,37.38283,7
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</LineString>
+<Style> id='lineaRoja'>
+<LineStyle>
+<color>#ff0000ff</color>
+<width> 5 </width>
+</LineStyle>
+</Style>
+</Placemark>
+<Placemark>
+<name>Autovía del Camino de Santiago</name>
+<LineString>
+<extrude>1</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+1.64323,42.81687,1000
+-2.45.,42.46667,384
+-2.95259,42.442,639
+-3.70184,42.34106,856
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</LineString>
+<Style> id='lineaRoja'>
+<LineStyle>
+<color>#ff0000ff</color>
+<width> 5 </width>
+</LineStyle>
+</Style>
+</Placemark>
+<Placemark>
+<name>Autopista del Mediterraneo</name>
+<LineString>
+<extrude>1</extrude>
+<tessellate>1</tessellate>
+<coordinates>
+2.8746400,42.4163600,110
+2.15899,41.38879,12
+-0.37739,39.46975,15
+-0.48149.,38.34517,3
+-1.8435800,37.2053600,95
+</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</LineString>
+<Style> id='lineaRoja'>
+<LineStyle>
+<color>#ff0000ff</color>
+<width> 5 </width>
+</LineStyle>
+</Style>
+</Placemark>
+</Document>
+</kml>

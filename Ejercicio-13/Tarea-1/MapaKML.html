@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejercicio 13-1</title>
+    <meta name="author" content="Esther González">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="MapaKML.css" />
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtF0HSYfDaXjyc_GcuBioFAfXEa3Gpaj4&v=3.exp"></script>
+    <script src="geoxml3.js"></script>
+    <script src="ProjectedOverlay.js"></script>
+    <script src="MapaKML.js"></script>
+</head>
+
+<body>
+    <main>
+        <h1>Procesamiento de archivos KML</h1>
+        <input id="carga" type="file" name="Archivos" onchange="mapa.procesar(this.files)">
+        <section id="mapa">
+            <h2>Mapa dinámico</h2>
+            <p id="map"></p>
+        </section>
+    </main>
+</body>
+
+</html>

@@ -1,3 +1,5 @@
+/* Ejercicio11.js */
+"use strict";
 class MapCentro {
     constructor() {
         navigator.geolocation.getCurrentPosition(this.initMap.bind(this));

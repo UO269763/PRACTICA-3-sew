@@ -1,3 +1,4 @@
+/* Ejercicio12.js */
 "use strict";
 class ProcesarFichero{
     constructor(){}

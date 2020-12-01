@@ -1,3 +1,4 @@
+/* Geolocalizacion.js */
 "use strict";
 class Geolocalizacion {
     constructor (){

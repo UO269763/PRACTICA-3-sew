@@ -1,3 +1,4 @@
+/* Ejercicio11.js */
 "use strict";
 class Geolocalizacion {
     constructor() {

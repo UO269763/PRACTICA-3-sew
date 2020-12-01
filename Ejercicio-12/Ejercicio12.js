@@ -5,7 +5,7 @@ class ProcesarFichero{
 
     procesar(ficheros){
         this.soporte();
-        var tamañoTotal=0;
+        var tamaño=0;
         for (var i=0;i<ficheros.length;i++){
             var fichero = ficheros[i];
             this.crear("Archivo número "+i);
@@ -13,14 +13,14 @@ class ProcesarFichero{
             this.crear("Tamaño " + fichero.size + " bytes");
             this.crear("Tipo " + fichero.type);
             this.crear("Fecha modificación " + fichero.lastModifiedDate);
-            tamañoTotal += fichero.size;
+            tamaño += fichero.size;
             var tipoTxt = /text.*/;
             var tipoJson = /application.json/;
             if (fichero.type.match(tipoTxt) || fichero.type.match(tipoJson))
                 this.procesarContenidoFichero(fichero);
         }
         document.getElementById("numero").innerHTML = ficheros.length;
-        document.getElementById("tamaño").innerHTML = tamañoTotal + " bytes";
+        document.getElementById("tamaño").innerHTML = tamaño + " bytes";
     }
     soporte(){
         if (window.File && window.FileReader && window.FileList && window.Blob)
@@ -33,7 +33,7 @@ class ProcesarFichero{
         $("footer").before(elemento);
     }
     procesarContenidoFichero(fichero){
-        this.crear("Contenidos del archivo:");
+        this.crear("Contenidos:");
         var reader = new FileReader();
         reader.onload = function(evento){
             var elemento = document.createElement("pre");
